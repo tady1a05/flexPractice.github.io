@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <ul class="navigation-bar">
+        <li>
+            <img src="icons/home.png"/>
+            <span>主頁</span>
+        </li>
+        <li>
+            <img src="icons/ms.png"/>
+            <span>模擬面試</span>
+        </li>
+        <li>
+            <img src="icons/net.png"/>
+            <span>技術面試</span>
+        </li>
+        <li>
+            <img src="icons/user.png"/>
+            <span>我的主頁</span>
+        </li>
+    </ul>
+    <div class="page1">
+        <div class="header">黑馬面面</div>
+        <div class="menu">
+            <div class="menuItem">
+                <img src="icons/icon1.png" />
+                <span>HR面試</span>
+            </div>
+            <div class="menuItem">
+                <img src="icons/icon2.png" />
+                <span>筆試</span>
+            </div>
+            <div class="menuItem">
+                <img src="icons/icon3.png" />
+                <span>技術筆試</span>
+            </div>
+            <div class="menuItem">
+                <img src="icons/icon4.png" />
+                <span>模擬面試</span>
+            </div>
+            <div class="menuItem">
+                <img src="icons/icon5.png" />
+                <span>面試技巧</span>
+            </div>
+            <div class="menuItem">
+                <img src="icons/icon6.png" />
+                <span>工資查詢</span>
+            </div>
+        </div>
+        <div class="advertisement">
+            <img src="images/go.png" />
+        </div>
+    </div>
+    <div class="page">
+        <div class="page-header">
+            <div class="page-header-left">
+                <img src="icons/i2.png" />
+                <span>就業指導</span>
+            </div>
+            <div class="page-header-right">
+                <span>更多>></span>
+            </div>
+        </div>
+        <div class="page-content1">
+            <div class="swiper-container mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="images/pic.png" />
+                        <span>老師教你面試技巧</span>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/ldh.jpg" />
+                        <span>老師教你面試技巧</span>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/3.jpg" />
+                        <span>老師教你面試技巧</span>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+    <div class="page">
+        <div class="page-header">
+            <div class="page-header-left">
+                <img src="icons/i1.png" />
+                <span>充電學習</span>
+            </div>
+            <div class="page-header-right">
+                <span>更多>></span>
+            </div>
+        </div>
+        <div class="page-content2">
+            <div class="swiper-container mySwiper2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="images/pic1.png" />
+                        <span>說低調英語，告別中式英語</span>
+                        <span>156人學習</span>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/pic2.png" />
+                        <span>說低調英語，告別中式英語</span>
+                        <span>156人學習</span>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/pic1.png" />
+                        <span>說低調英語，告別中式英語</span>
+                        <span>156人學習</span>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/pic2.png" />
+                        <span>說低調英語，告別中式英語</span>
+                        <span>156人學習</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper1 = new Swiper(".mySwiper", {
+            loop: true,
+            slidesPerView: 2,
+            centeredSlides: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            }
+        });
+
+        var swiper2 = new Swiper(".mySwiper2", {
+            spaceBetween: 20,
+            slidesPerView: 2.5
+        });
+    </script>
+</body>
+
+</html>

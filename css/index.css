@@ -1,0 +1,235 @@
+@media screen and (min-width: 750px){
+    html{
+        font-size: 75px !important;
+    }
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100%;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f2f4f7;
+}
+
+.page1{
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.header{
+    width: 10rem;
+    height: 1.066667rem;
+    line-height: 1.066667rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid #eaeaea;
+    text-align: center;
+    font-size: .426667rem;
+}
+
+.menu{
+    display: flex;
+    width: 10rem;
+    flex-wrap: wrap;
+    margin-top: .693333rem;
+    margin-bottom: .88rem;
+}
+
+.menuItem{
+    display: flex;
+    flex: 33.3%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: .32rem;
+}
+
+.menuItem>img{
+    width: 1.8rem
+}
+
+.advertisement{
+    text-align: center;
+    padding-bottom: .56rem;
+}
+
+.advertisement>img{
+    width: 9.653333rem;
+}
+
+.page{
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: .133333rem;
+    overflow: auto;
+}
+
+.page-header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: .266667rem;
+}
+
+.page-header-left{
+    display: flex;
+    width: 2.666667rem;
+    font-size: .346667rem;
+    margin-left: .32rem;
+}
+
+.page-header-left>img{
+    width: .533333rem;
+    height: .533333rem;
+}
+
+.page-header-right{
+    width: 1.653333rem;
+    color: #999999;
+    text-align: right;
+    font-size: .293333rem;
+    margin-right: .32rem;
+}
+
+.page-content1{
+    position: relative;
+}
+
+.page-content1 .swiper-container {
+    height: 8rem;
+    width: 6.933333rem;
+}
+
+.page-content1 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    width: 3.004444rem;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-content1 .swiper-slide>img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.page-content1 .swiper-slide>span{
+    display: block;
+    width: 100%;
+    margin-top: .32rem;
+    font-size: .24rem;
+}
+
+.page-content1 .swiper-slide{
+    transition: all .5s;
+    opacity: 0.6;
+}
+
+.page-content1 .swiper-slide-active{
+    transform: scale(1.5);
+    z-index: 1;
+    opacity: 1;
+}
+
+.page-content1 .swiper-button-next::after{
+    font-size: .56rem !important; 
+}
+
+.page-content1 .swiper-button-prev::after{
+    font-size: .56rem !important; 
+}
+
+.page-content1 .swiper-button-prev{
+    color: #333333 !important;
+    left: .133333rem !important;
+    right: auto !important;
+}
+
+.page-content1 .swiper-button-next{
+    color: #333333 !important;
+    right: .133333rem !important;
+    left: auto !important;
+}
+
+.page-content2{
+    position: relative;
+    margin-top: .533333rem;
+    padding-bottom: 2.586667rem;
+}
+
+.page-content2 .swiper-slide{
+    display: flex;
+    width: 4rem;
+    height: 4.533333rem;
+    flex-direction: column;
+    font-size: .32rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.page-content2 .swiper-slide>img{
+    width: 100%;
+}
+
+.page-content2 .swiper-slide>span:nth-of-type(1){
+    margin-top: .266667rem;
+}
+
+.page-content2 .swiper-slide>span:nth-of-type(2){
+    margin-top: .346667rem;
+    color: #ff4400;
+}
+
+.page-content2 .swiper-container{
+    width: 9.226667rem;
+    padding: .053333rem; 
+}
+
+.navigation-bar{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    z-index: 10;
+    width: 100%;
+    height: 1.466667rem;
+    box-sizing: border-box;
+    border-top: 1px solid #cccccc;
+}
+
+.navigation-bar>li{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation-bar img{
+    width: .52rem;
+}
+
+.navigation-bar span{
+    font-size: .293333rem;
+    padding: .16rem;
+}
